@@ -109,6 +109,15 @@ vector<char> getBitstringAsBytes(const string& bitstring)
     return bytes;
 }
 
+void deleteTree(Node* node)
+{
+    if (node == nullptr) return;
+
+    deleteTree(node->left);
+    deleteTree(node->right);
+    delete node;
+}
+
 int main() 
 {
     //Read the file to a string
@@ -167,6 +176,6 @@ int main()
     }
     iFile.close();
     oFile.close();
-
+    deleteTree(root);
     return 0;
 }
