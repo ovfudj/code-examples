@@ -1,0 +1,7 @@
+handgun bullets ore
+bullets ore
+bombs ore
+turret bullets
+horses horseshoes handgrenades
+handgrenades
+horseshoes

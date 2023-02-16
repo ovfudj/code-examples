@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\ovaik\source\repos\Huffman\Huffman\main.cpp(106,38): warning C4244: 'argument': conversion from 'unsigned long' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=char
+          ]
+  Huffman.vcxproj -> C:\Users\ovaik\source\repos\Huffman\x64\Debug\Huffman.exe
